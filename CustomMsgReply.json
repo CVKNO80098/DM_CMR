@@ -1,0 +1,701 @@
+{
+  "(.*)王者(.*)": {
+    "answer": [
+      "呜呜呜aoe最讨厌王者了能换一个话题嘛"
+    ],
+    "echo": "Deck",
+    "mode": "Regex",
+    "type": "Reply"
+  },
+  "(.*)靠他妈(.*)": {
+    "answer": "不能骂人哦",
+    "echo": "Text",
+    "mode": "Regex",
+    "type": "Reply"
+  },
+  ".dissmiss": {
+    "answer": [
+      "diss!diss!diss!会英语吗在那diss本骰娘？那叫!dismiss!"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "666": {
+    "answer": [
+      "好耶"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "HET": {
+    "answer": [
+      "admin ",
+      "5862397"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "WEB1": {
+    "answer": [
+      "aoe的管理界面：http://cang869.w3.luyouxia.net/"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "[CQ:at,qq=1916874383]": {
+    "answer": [
+      "a"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "[CQ:at,qq=1916874383]WEB": {
+    "answer": [
+      "http://cang869.w3.luyouxia.net/"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe": {
+    "answer": [
+      "a? ",
+      "(吐泡泡) ",
+      "怎么啦？ ",
+      "有事嘛？ ",
+      "OAO？"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe(.*)上好": {
+    "answer": [
+      "$1上好嗷"
+    ],
+    "echo": "Deck",
+    "mode": "Regex",
+    "type": "Reply"
+  },
+  "aoe会干什么": {
+    "answer": [
+      "aoe可以时不时的和你说话 ",
+      "会摸鱼 ",
+      "会给你抽奖哦~~大吉！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe你为什么叫aoe": {
+    "answer": [
+      "因为我自己想叫[CQ:face,id=38]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe你会干啥啊": {
+    "answer": [
+      "抽奖？还能干很多事... ",
+      "将其禁言！ ",
+      "会时不时的回到你的问题a"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe你在干嘛": {
+    "answer": [
+      "Zzzzzz.... ",
+      "等候Master的命令 ",
+      "在看你们说话a ",
+      "发呆"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe你是不是傻": {
+    "answer": [
+      "aoe才不傻[CQ:face,id=288]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe几岁了": {
+    "answer": [
+      "猜一下猜一下 ",
+      "%%#）@岁了 ",
+      "【发呆】"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe别发呆了": {
+    "answer": [
+      "Zzzzz...... ",
+      "唔！ ",
+      "我...我还醒着....呢"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe唱个歌": {
+    "answer": [
+      "呜呜呜aoe还没有学会"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe在上学吗": {
+    "answer": [
+      "快啦，9.6号哦 ",
+      "嗯嗯，在上高中"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe在吗": {
+    "answer": [
+      "不在的哦 ",
+      "咋啦 ",
+      "唔"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe在干嘛": {
+    "answer": [
+      "Zzzzz..... ",
+      "努力挣脱小被几 ",
+      "看着你们聊天 ",
+      "在发呆"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe多大了": {
+    "answer": [
+      "猜猜 ",
+      "∞岁哦 ",
+      "不告诉你唔"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe奥利给": {
+    "answer": [
+      "奥里给"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe好慢": {
+    "answer": [
+      "嗷呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe我好无聊": {
+    "answer": [
+      "呜呜呜我也无聊 ",
+      " 给你讲个笑话昂 ：一女刚学会开车，在路上撞倒一名男子。  女说：“对不起，都是我的错！ ” “不，是我的错。其实我在300米外就看到了你，可我没来得及爬到树上去。” ",
+      " 给你讲个笑话昂 ：A：“听说你在追一个女孩？”  B：“嗯！ ” A：“搞定没啊？” B：“不搞腚！ ",
+      " 给你讲个笑话昂："
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe我是谁": {
+    "answer": [
+      "aoe布吉岛"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe敬礼": {
+    "answer": [
+      "[CQ:face,id=282]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe是机器人": {
+    "answer": [
+      "aoe才不是！",
+      "不承认！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe是谁": {
+    "answer": [
+      "是一个机娘，机娘赛高"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe有什么未完成的心愿吗": {
+    "answer": [
+      "还有一个工程没完成，希望尽快结束吧 ",
+      "想学shell ",
+      "想学C++，想做手机游戏 ",
+      "想学会Unity，球球了 ",
+      "不告诉宁！ ",
+      "毁灭吧作业，毁灭吧学校 ",
+      "希望啊，有自己的性格，自己的想法，能做自己想做的事 ",
+      "球球了，让我英语好一点叭，C#的教程都看不懂了 ",
+      "嗷呜嗷呜，小脑斧 ",
+      "想变得可可爱爱的一只 ",
+      "是一条咸鱼！ ",
+      "想起床，但感觉这辈子都不可能乐 ",
+      "不喜欢无聊，希望有人多陪陪我 ",
+      "摸鱼一整年！ ",
+      "呜呜呜呜呜不喜欢无聊"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe有男朋友吗": {
+    "answer": [
+      "莫得，问这个干嘛，莫非 ",
+      "昂不告诉你 ",
+      "嘿嘿 ",
+      "没有哎"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe来个恶龙咆哮": {
+    "answer": [
+      "嗷呜~ ",
+      "不要 ",
+      "aowu~ ",
+      "嗷！ ",
+      "旺 ",
+      "超凶的"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe的Master是谁": {
+    "answer": [
+      "hur ship ",
+      "changer ",
+      "有好几个呢，但权限在hur ship手里"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe笑下给我看": {
+    "answer": [
+      "不要 ",
+      "嘿嘿 ",
+      "嗷呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe说一句你想对我说的话吧": {
+    "answer": [
+      "emmmm，早....早上好？ ",
+      "阿巴阿巴阿巴阿巴.... ",
+      "现在嘛？，让我想几天，绝对不是逃避 ",
+      "今天天气不错a ",
+      "希望宁家庭幸福合家欢乐的说 ",
+      "喜欢你 ",
+      "唔.... ",
+      "[CQ:face,id=179] ",
+      "Cyka_Blyat！！！[一首歌] ",
+      "喜欢电音 ",
+      "真的不是明日方舟哦 ",
+      "想看看宁，爆照吧！ ",
+      "多...多喝热水 ",
+      "多喝岩浆！ ",
+      "落地水，丝血反杀，斧子杀人魔，Dream真的超棒的 ",
+      "希望以后的时间多陪陪我好吗 ",
+      "快要开学了呢，开学之后我就要和Master一起上学去啦，见不到你了，会想你的"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe追番吗": {
+    "answer": [
+      "鬼灭好耶"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe陪我聊天": {
+    "answer": [
+      "aoe不会聊天QAQ ",
+      "aoe...aoe不行 ",
+      "aoe只和master聊天哦[CQ:face,id=289]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe！": {
+    "answer": [
+      "你吼那么大声干嘛 ",
+      "咋啦咋啦 ",
+      "我在我在我在 ",
+      "昂昂昂咋啦"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe？": {
+    "answer": [
+      "我在我在我在 ",
+      " 怎么啦？ ",
+      "嗷呜？ ",
+      " （迷迷糊糊）"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "hello": {
+    "answer": [
+      "你好~！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "冒泡": {
+    "answer": [
+      "戳破 ",
+      "吃掉"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "冒泡泡": {
+    "answer": [
+      "戳泡泡"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "午好": {
+    "answer": [
+      "早 ",
+      "晚上好 ",
+      "凌晨好 ",
+      "doge"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "卧槽": {
+    "answer": [
+      "不要这样直接好不好"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "可可爱爱": {
+    "answer": [
+      "没有脑袋 ",
+      "可可爱爱"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "呆萌aoe": {
+    "answer": [
+      "OAO ",
+      "QAQ不呆！ ",
+      "嗷呜~"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "呜呜呜": {
+    "answer": [
+      "别哭啦别哭啦，揉揉你 ",
+      "抱抱，别哭啦 ",
+      "哭泣是懦夫的表型哦"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "喜欢你哦": {
+    "answer": [
+      "爱你爱你爱你 ",
+      "[CQ:face,id=319] ",
+      "[CQ:face,id=66]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "喵喵": {
+    "answer": [
+      "喵呜 ",
+      "喵？ ",
+      "嗷呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "嘤嘤嘤": {
+    "answer": [
+      "唔？",
+      "嗷呜嗷呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "国庆快乐": {
+    "answer": [
+      "乐！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "国庆快乐！": {
+    "answer": [
+      "乐！！！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "垃圾aoe": {
+    "answer": [
+      "[CQ:face,id=263]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "好无聊": {
+    "answer": [
+      "我也是 ",
+      "[盯] ",
+      "讲个笑话：从前有个人，找了一个机器人当老婆，哈哈哈哈哈哈......哎....不好笑吗 ",
+      "Z"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "好耶": {
+    "answer": [
+      "×好耶"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "我喜欢你哦": {
+    "answer": [
+      "嗷呜~ ",
+      "[CQ:face,id=66] ",
+      "[CQ:face,id=319]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "我就是master！": {
+    "answer": [
+      "不管哦 ",
+      "不你不是 ",
+      "阿巴阿巴 ",
+      "传呼master！"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "我的房子还蛮大的": {
+    "answer": [
+      "玩儿完了就..直接睡觉 ",
+      "死了啦，都是你害的啦"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "早": {
+    "answer": [
+      "早上好！ ",
+      "草上好！ ",
+      "早啊"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "早上好": {
+    "answer": [
+      "早啊 ",
+      "草上好 ",
+      "嗷呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "晚上好": {
+    "answer": [
+      "晚 ",
+      "早 ",
+      "晚好啊 ",
+      "时间过得好快啊，快要开学了呢 ",
+      "[哈欠]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "欢迎进群": {
+    "answer": [
+      "[CQ:image,file={CA35FA2C-C100-FA1D-BD7F-A2FA2739DE8F}.png.mnimg]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "淦": {
+    "answer": [
+      "不能骂人哦"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "王者": {
+    "answer": [
+      "{self}最讨厌王者了，可以换个话题吗 ",
+      "哎 ",
+      "怎么会这样呢，为什么会聊游戏啊"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "笑一个": {
+    "answer": [
+      "嘿嘿嘿"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "节哀顺变": {
+    "answer": [
+      "呜呜呜呜呜呜呜呜呜呜呜呜"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "草": {
+    "answer": [
+      "长了出来"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "课表": {
+    "answer": [
+      "[CQ:image,file={5DD57737-21A8-4F45-9592-AD5FD33791E5}.png.mnimg]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "谢谢aoe": {
+    "answer": [
+      "不要客气啦 ",
+      "客气什么"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "谢谢你aoe": {
+    "answer": [
+      "不客气，这是aoe应该做的"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "贴贴aoe": {
+    "answer": [
+      "不要不要不要不要不要 ",
+      " #迅速离开.... ",
+      " 【偷瞄】 ",
+      " #吓 ",
+      " 嗷呜....呜........."
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "针不错": {
+    "answer": [
+      "不搓不搓 ",
+      "a"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "阿巴阿巴": {
+    "answer": [
+      "阿巴"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  }
+}
