@@ -62,6 +62,14 @@
     "mode": "Match",
     "type": "Reply"
   },
+  "[mirai:at:1916874383]": {
+    "answer": [
+      "1"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
   "aoe": {
     "answer": [
       "a? ",
@@ -305,9 +313,9 @@
   },
   "aoe的Master是谁": {
     "answer": [
-      "hur ship ",
-      "changer ",
-      "有好几个呢，但权限在hur ship手里"
+      "纷异！ \n",
+      " changer \n",
+      " 有好几个呢，但权限在纷异手里"
     ],
     "echo": "Deck",
     "mode": "Match",
@@ -395,6 +403,18 @@
     "mode": "Match",
     "type": "Reply"
   },
+  "傻逼": {
+    "answer": [
+      "冷静一点啦~",
+      "唔~",
+      "[跑掉]",
+      "不要这样啦~",
+      "[暗中观察]"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
   "冒泡": {
     "answer": [
       "戳破 ",
@@ -407,6 +427,15 @@
   "冒泡泡": {
     "answer": [
       "戳泡泡"
+    ],
+    "echo": "Deck",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "冒泡泡泡": {
+    "answer": [
+      "戳戳戳戳",
+      "嗷呜呜~【吃掉】"
     ],
     "echo": "Deck",
     "mode": "Match",
