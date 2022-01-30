@@ -1,15 +1,29 @@
 {
+  "(.*)上好": {
+    "answer": [
+      "$1啊",
+      "$1上嚎",
+      "$1，加油！"
+    ],
+    "echo": "Deck",
+    "key": "(.*)上好",
+    "limit": "grp_id:0",
+    "mode": "Regex",
+    "type": "Reply"
+  },
   "(.*)王者(.*)": {
     "answer": [
       "呜呜呜aoe最讨厌王者了能换一个话题嘛"
     ],
     "echo": "Deck",
+    "key": "(.*)王者(.*)",
     "mode": "Regex",
     "type": "Reply"
   },
   "(.*)靠他妈(.*)": {
     "answer": "不能骂人哦",
     "echo": "Text",
+    "key": "(.*)靠他妈(.*)",
     "mode": "Regex",
     "type": "Reply"
   },
@@ -18,14 +32,7 @@
       "diss!diss!diss!会英语吗在那diss本骰娘？那叫!dismiss!"
     ],
     "echo": "Deck",
-    "mode": "Match",
-    "type": "Reply"
-  },
-  "666": {
-    "answer": [
-      "好耶"
-    ],
-    "echo": "Deck",
+    "key": ".dissmiss",
     "mode": "Match",
     "type": "Reply"
   },
@@ -35,6 +42,7 @@
       "5862397"
     ],
     "echo": "Deck",
+    "key": "HET",
     "mode": "Match",
     "type": "Reply"
   },
@@ -43,6 +51,7 @@
       "aoe的管理界面：http://cang869.w3.luyouxia.net/"
     ],
     "echo": "Deck",
+    "key": "WEB1",
     "mode": "Match",
     "type": "Reply"
   },
@@ -51,6 +60,7 @@
       "a"
     ],
     "echo": "Deck",
+    "key": "[CQ:at,qq=1916874383]",
     "mode": "Match",
     "type": "Reply"
   },
@@ -59,6 +69,7 @@
       "http://cang869.w3.luyouxia.net/"
     ],
     "echo": "Deck",
+    "key": "[CQ:at,qq=1916874383]WEB",
     "mode": "Match",
     "type": "Reply"
   },
@@ -67,6 +78,7 @@
       "1"
     ],
     "echo": "Deck",
+    "key": "[mirai:at:1916874383]",
     "mode": "Match",
     "type": "Reply"
   },
@@ -79,6 +91,7 @@
       "OAO？"
     ],
     "echo": "Deck",
+    "key": "aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -87,6 +100,7 @@
       "$1上好嗷"
     ],
     "echo": "Deck",
+    "key": "aoe(.*)上好",
     "mode": "Regex",
     "type": "Reply"
   },
@@ -97,6 +111,7 @@
       "会给你抽奖哦~~大吉！"
     ],
     "echo": "Deck",
+    "key": "aoe会干什么",
     "mode": "Match",
     "type": "Reply"
   },
@@ -105,6 +120,7 @@
       "因为我自己想叫[CQ:face,id=38]"
     ],
     "echo": "Deck",
+    "key": "aoe你为什么叫aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -115,6 +131,7 @@
       "会时不时的回到你的问题a"
     ],
     "echo": "Deck",
+    "key": "aoe你会干啥啊",
     "mode": "Match",
     "type": "Reply"
   },
@@ -126,6 +143,7 @@
       "发呆"
     ],
     "echo": "Deck",
+    "key": "aoe你在干嘛",
     "mode": "Match",
     "type": "Reply"
   },
@@ -134,6 +152,7 @@
       "aoe才不傻[CQ:face,id=288]"
     ],
     "echo": "Deck",
+    "key": "aoe你是不是傻",
     "mode": "Match",
     "type": "Reply"
   },
@@ -144,6 +163,7 @@
       "【发呆】"
     ],
     "echo": "Deck",
+    "key": "aoe几岁了",
     "mode": "Match",
     "type": "Reply"
   },
@@ -154,6 +174,7 @@
       "我...我还醒着....呢"
     ],
     "echo": "Deck",
+    "key": "aoe别发呆了",
     "mode": "Match",
     "type": "Reply"
   },
@@ -162,6 +183,7 @@
       "呜呜呜aoe还没有学会"
     ],
     "echo": "Deck",
+    "key": "aoe唱个歌",
     "mode": "Match",
     "type": "Reply"
   },
@@ -171,6 +193,7 @@
       "嗯嗯，在上高中"
     ],
     "echo": "Deck",
+    "key": "aoe在上学吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -181,6 +204,7 @@
       "唔"
     ],
     "echo": "Deck",
+    "key": "aoe在吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -192,6 +216,7 @@
       "在发呆"
     ],
     "echo": "Deck",
+    "key": "aoe在干嘛",
     "mode": "Match",
     "type": "Reply"
   },
@@ -202,6 +227,7 @@
       "不告诉你唔"
     ],
     "echo": "Deck",
+    "key": "aoe多大了",
     "mode": "Match",
     "type": "Reply"
   },
@@ -210,6 +236,7 @@
       "奥里给"
     ],
     "echo": "Deck",
+    "key": "aoe奥利给",
     "mode": "Match",
     "type": "Reply"
   },
@@ -218,6 +245,7 @@
       "嗷呜"
     ],
     "echo": "Deck",
+    "key": "aoe好慢",
     "mode": "Match",
     "type": "Reply"
   },
@@ -229,6 +257,7 @@
       " 给你讲个笑话昂："
     ],
     "echo": "Deck",
+    "key": "aoe我好无聊",
     "mode": "Match",
     "type": "Reply"
   },
@@ -237,6 +266,17 @@
       "aoe布吉岛"
     ],
     "echo": "Deck",
+    "key": "aoe我是谁",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe我最讨厌你了": {
+    "answer": [
+      "呜呜呜呜",
+      "呜呜呜呜呜呜"
+    ],
+    "echo": "Deck",
+    "key": "",
     "mode": "Match",
     "type": "Reply"
   },
@@ -245,6 +285,7 @@
       "[CQ:face,id=282]"
     ],
     "echo": "Deck",
+    "key": "aoe敬礼",
     "mode": "Match",
     "type": "Reply"
   },
@@ -254,6 +295,7 @@
       "不承认！"
     ],
     "echo": "Deck",
+    "key": "aoe是机器人",
     "mode": "Match",
     "type": "Reply"
   },
@@ -262,8 +304,16 @@
       "是一个机娘，机娘赛高"
     ],
     "echo": "Deck",
+    "key": "aoe是谁",
     "mode": "Match",
     "type": "Reply"
+  },
+  "aoe晚安。": {
+    "answer": ".reply off",
+    "echo": "Text",
+    "key": "aoe晚安。",
+    "mode": "Match",
+    "type": "Order"
   },
   "aoe有什么未完成的心愿吗": {
     "answer": [
@@ -284,6 +334,7 @@
       "呜呜呜呜呜不喜欢无聊"
     ],
     "echo": "Deck",
+    "key": "aoe有什么未完成的心愿吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -295,6 +346,7 @@
       "没有哎"
     ],
     "echo": "Deck",
+    "key": "aoe有男朋友吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -308,6 +360,7 @@
       "超凶的"
     ],
     "echo": "Deck",
+    "key": "aoe来个恶龙咆哮",
     "mode": "Match",
     "type": "Reply"
   },
@@ -318,6 +371,18 @@
       " 有好几个呢，但权限在纷异手里"
     ],
     "echo": "Deck",
+    "key": "aoe的Master是谁",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "aoe知道假面骑士吗": {
+    "answer": [
+      "当然知道→_→",
+      "耶，变身(≧∇≦)/",
+      "难道你就是假面骑士ｸﾞｯ!(๑•̀ㅂ•́)و✧"
+    ],
+    "echo": "Deck",
+    "key": "aoe知道假面骑士吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -328,6 +393,7 @@
       "嗷呜"
     ],
     "echo": "Deck",
+    "key": "aoe笑下给我看",
     "mode": "Match",
     "type": "Reply"
   },
@@ -352,6 +418,7 @@
       "快要开学了呢，开学之后我就要和Master一起上学去啦，见不到你了，会想你的"
     ],
     "echo": "Deck",
+    "key": "aoe说一句你想对我说的话吧",
     "mode": "Match",
     "type": "Reply"
   },
@@ -360,6 +427,7 @@
       "鬼灭好耶"
     ],
     "echo": "Deck",
+    "key": "aoe追番吗",
     "mode": "Match",
     "type": "Reply"
   },
@@ -370,6 +438,7 @@
       "aoe只和master聊天哦[CQ:face,id=289]"
     ],
     "echo": "Deck",
+    "key": "aoe陪我聊天",
     "mode": "Match",
     "type": "Reply"
   },
@@ -381,6 +450,7 @@
       "昂昂昂咋啦"
     ],
     "echo": "Deck",
+    "key": "aoe！",
     "mode": "Match",
     "type": "Reply"
   },
@@ -392,6 +462,7 @@
       " （迷迷糊糊）"
     ],
     "echo": "Deck",
+    "key": "aoe？",
     "mode": "Match",
     "type": "Reply"
   },
@@ -400,6 +471,7 @@
       "你好~！"
     ],
     "echo": "Deck",
+    "key": "hello",
     "mode": "Match",
     "type": "Reply"
   },
@@ -412,7 +484,18 @@
       "[暗中观察]"
     ],
     "echo": "Deck",
+    "key": "傻逼",
     "mode": "Match",
+    "type": "Reply"
+  },
+  "冒(.*)泡": {
+    "answer": [
+      "$1啊"
+    ],
+    "echo": "Deck",
+    "key": "冒(.*)泡",
+    "limit": "prob:50",
+    "mode": "Regex",
     "type": "Reply"
   },
   "冒泡": {
@@ -421,6 +504,7 @@
       "吃掉"
     ],
     "echo": "Deck",
+    "key": "冒泡",
     "mode": "Match",
     "type": "Reply"
   },
@@ -429,6 +513,7 @@
       "戳泡泡"
     ],
     "echo": "Deck",
+    "key": "冒泡泡",
     "mode": "Match",
     "type": "Reply"
   },
@@ -438,6 +523,7 @@
       "嗷呜呜~【吃掉】"
     ],
     "echo": "Deck",
+    "key": "冒泡泡泡",
     "mode": "Match",
     "type": "Reply"
   },
@@ -449,6 +535,7 @@
       "doge"
     ],
     "echo": "Deck",
+    "key": "午好",
     "mode": "Match",
     "type": "Reply"
   },
@@ -457,6 +544,7 @@
       "不要这样直接好不好"
     ],
     "echo": "Deck",
+    "key": "卧槽",
     "mode": "Match",
     "type": "Reply"
   },
@@ -466,6 +554,7 @@
       "可可爱爱"
     ],
     "echo": "Deck",
+    "key": "可可爱爱",
     "mode": "Match",
     "type": "Reply"
   },
@@ -476,6 +565,7 @@
       "嗷呜~"
     ],
     "echo": "Deck",
+    "key": "呆萌aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -486,6 +576,7 @@
       "哭泣是懦夫的表型哦"
     ],
     "echo": "Deck",
+    "key": "呜呜呜",
     "mode": "Match",
     "type": "Reply"
   },
@@ -496,6 +587,7 @@
       "[CQ:face,id=66]"
     ],
     "echo": "Deck",
+    "key": "喜欢你哦",
     "mode": "Match",
     "type": "Reply"
   },
@@ -506,6 +598,7 @@
       "嗷呜"
     ],
     "echo": "Deck",
+    "key": "喵喵",
     "mode": "Match",
     "type": "Reply"
   },
@@ -515,6 +608,7 @@
       "嗷呜嗷呜"
     ],
     "echo": "Deck",
+    "key": "嘤嘤嘤",
     "mode": "Match",
     "type": "Reply"
   },
@@ -523,6 +617,7 @@
       "乐！"
     ],
     "echo": "Deck",
+    "key": "国庆快乐",
     "mode": "Match",
     "type": "Reply"
   },
@@ -531,6 +626,7 @@
       "乐！！！"
     ],
     "echo": "Deck",
+    "key": "国庆快乐！",
     "mode": "Match",
     "type": "Reply"
   },
@@ -539,6 +635,7 @@
       "[CQ:face,id=263]"
     ],
     "echo": "Deck",
+    "key": "垃圾aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -550,14 +647,7 @@
       "Z"
     ],
     "echo": "Deck",
-    "mode": "Match",
-    "type": "Reply"
-  },
-  "好耶": {
-    "answer": [
-      "×好耶"
-    ],
-    "echo": "Deck",
+    "key": "好无聊",
     "mode": "Match",
     "type": "Reply"
   },
@@ -568,6 +658,7 @@
       "[CQ:face,id=319]"
     ],
     "echo": "Deck",
+    "key": "我喜欢你哦",
     "mode": "Match",
     "type": "Reply"
   },
@@ -579,6 +670,7 @@
       "传呼master！"
     ],
     "echo": "Deck",
+    "key": "我就是master！",
     "mode": "Match",
     "type": "Reply"
   },
@@ -588,6 +680,7 @@
       "死了啦，都是你害的啦"
     ],
     "echo": "Deck",
+    "key": "我的房子还蛮大的",
     "mode": "Match",
     "type": "Reply"
   },
@@ -598,6 +691,7 @@
       "早啊"
     ],
     "echo": "Deck",
+    "key": "早",
     "mode": "Match",
     "type": "Reply"
   },
@@ -608,6 +702,7 @@
       "嗷呜"
     ],
     "echo": "Deck",
+    "key": "早上好",
     "mode": "Match",
     "type": "Reply"
   },
@@ -620,6 +715,7 @@
       "[哈欠]"
     ],
     "echo": "Deck",
+    "key": "晚上好",
     "mode": "Match",
     "type": "Reply"
   },
@@ -628,6 +724,7 @@
       "[CQ:image,file={CA35FA2C-C100-FA1D-BD7F-A2FA2739DE8F}.png.mnimg]"
     ],
     "echo": "Deck",
+    "key": "欢迎进群",
     "mode": "Match",
     "type": "Reply"
   },
@@ -636,6 +733,7 @@
       "不能骂人哦"
     ],
     "echo": "Deck",
+    "key": "淦",
     "mode": "Match",
     "type": "Reply"
   },
@@ -646,6 +744,7 @@
       "怎么会这样呢，为什么会聊游戏啊"
     ],
     "echo": "Deck",
+    "key": "王者",
     "mode": "Match",
     "type": "Reply"
   },
@@ -654,6 +753,7 @@
       "嘿嘿嘿"
     ],
     "echo": "Deck",
+    "key": "笑一个",
     "mode": "Match",
     "type": "Reply"
   },
@@ -662,6 +762,7 @@
       "呜呜呜呜呜呜呜呜呜呜呜呜"
     ],
     "echo": "Deck",
+    "key": "节哀顺变",
     "mode": "Match",
     "type": "Reply"
   },
@@ -670,14 +771,25 @@
       "长了出来"
     ],
     "echo": "Deck",
+    "key": "草",
+    "mode": "Match",
+    "type": "Reply"
+  },
+  "课程表": {
+    "answer": [
+      "[CQ:image,file={720B272A-CDE9-C174-59B0-C09FC310C815}.png.mnimg]"
+    ],
+    "echo": "Deck",
+    "key": "课程表",
     "mode": "Match",
     "type": "Reply"
   },
   "课表": {
     "answer": [
-      "[CQ:image,file={5DD57737-21A8-4F45-9592-AD5FD33791E5}.png.mnimg]"
+      "[CQ:image,file={720B272A-CDE9-C174-59B0-C09FC310C815}.png.mnimg]"
     ],
     "echo": "Deck",
+    "key": "课表",
     "mode": "Match",
     "type": "Reply"
   },
@@ -687,6 +799,7 @@
       "客气什么"
     ],
     "echo": "Deck",
+    "key": "谢谢aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -695,6 +808,7 @@
       "不客气，这是aoe应该做的"
     ],
     "echo": "Deck",
+    "key": "谢谢你aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -707,6 +821,7 @@
       " 嗷呜....呜........."
     ],
     "echo": "Deck",
+    "key": "贴贴aoe",
     "mode": "Match",
     "type": "Reply"
   },
@@ -716,6 +831,7 @@
       "a"
     ],
     "echo": "Deck",
+    "key": "针不错",
     "mode": "Match",
     "type": "Reply"
   },
@@ -724,6 +840,7 @@
       "阿巴"
     ],
     "echo": "Deck",
+    "key": "阿巴阿巴",
     "mode": "Match",
     "type": "Reply"
   }
